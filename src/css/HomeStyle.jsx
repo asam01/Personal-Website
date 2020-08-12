@@ -1,15 +1,15 @@
-export const bodyStyle = {
+export const body = {
     fontFamily: 'Didact Gothic',
     justifyContent: 'center'
 }
 
-export const headerStyle = {
+export const header = {
     display: 'flex',
     justifyContent: 'center',
     fontSize: '40px'
 }
 
-export const textStyle = {
+export const text = {
     fontSize: '16px',
     textAlign: 'center',
     maxWidth: '50%',
@@ -17,6 +17,17 @@ export const textStyle = {
     marginRight: 'auto'
 }
 
-export const experienceStyle = {
-    marginLeft: '10%'
+export const section = (color) => {
+    return {
+        backgroundColor: color,
+        marginBottom: '-1.409%' // remove white space between sections
+    };
+}
+
+export const sectionHeader = {
+    textIndent: '10%'
+}
+
+export const list = {
+    marginLeft: '12%'
 }

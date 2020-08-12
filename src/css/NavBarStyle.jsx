@@ -1,5 +1,7 @@
 export const navbar = {
     background: 'BlanchedAlmond',
+    position: 'sticky',
+    top: '0%'
 }
   
 export const nameStyle = {
