@@ -39,11 +39,3 @@ export const list = {
     marginRight: '12%',
     color: 'white'
 }
-
-export const picture = (margin) => {
-    return {
-        width: '3%',
-        height: '3%',
-        marginLeft: margin
-    }
-}

@@ -3,7 +3,7 @@ import * as styles from '../css/HomeStyle';
 
 function Experience () {
     return (
-        <div style={styles.section('blue')} id='experience'>
+        <div style={styles.section('yellowgreen')} id='experience'>
             <br/>
             <h2 style={styles.sectionHeader}>Experience</h2>
                 <ul style={styles.list}>
