@@ -8,7 +8,7 @@ import * as styles from '../css/HomeStyle';
 
 function Home () {
     return (
-        <div>
+        <div id='top'>
             <Bar/>
             <title>Aneesha Sampath</title>
             <body style={styles.body}>

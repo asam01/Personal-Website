@@ -27,7 +27,7 @@ function Bar (props) {
         <ElevationScroll {...props}>
             <AppBar position="static" style={styles.navbar}>
                 <Toolbar>
-                    <Link to='/' style={{textDecoration: 'none'}}>
+                    <Link to='#top' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Home</Button>
                     </Link>
 
