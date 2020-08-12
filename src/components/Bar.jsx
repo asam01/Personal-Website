@@ -39,6 +39,10 @@ function Bar (props) {
                         <Button style={styles.buttonStyle}>Experience</Button>
                     </Link>
 
+                    <Link to='#skills' style={{textDecoration: 'none'}}>
+                        <Button style={styles.buttonStyle}>Skills</Button>
+                    </Link>
+
                     <Typography style={styles.nameStyle} align='right'>
                         Aneesha Sampath
                     </Typography>

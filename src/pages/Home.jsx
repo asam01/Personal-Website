@@ -3,12 +3,13 @@ import Bar from '../components/Bar';
 
 import Education from './Education';
 import Experience from './Experience';
+import Skills from './Skills';
 
 import * as styles from '../css/HomeStyle';
 
 function Home () {
     return (
-        <div id='top'>
+        <div style={styles.page} id='top'>
             <Bar/>
             <title>Aneesha Sampath</title>
             <body style={styles.body}>
@@ -23,6 +24,7 @@ function Home () {
 
                 <Education />
                 <Experience />
+                <Skills />
                 
                 
             </body> 
