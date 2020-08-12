@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Bar from '../components/Bar';
 
+import About from './About';
 import Education from './Education';
 import Experience from './Experience';
 import Skills from './Skills';
@@ -9,7 +10,7 @@ import * as styles from '../css/HomeStyle';
 
 function Home () {
     return (
-        <div style={styles.page} id='top'>
+        <Fragment style={styles.page} id='top'>
             <Bar/>
             <title>Aneesha Sampath</title>
             <body style={styles.body}>
@@ -22,13 +23,14 @@ function Home () {
                     </p> 
                 </div>
 
+                <About />
                 <Education />
                 <Experience />
                 <Skills />
                 
                 
             </body> 
-        </div>
+        </Fragment>
     );
 }
 

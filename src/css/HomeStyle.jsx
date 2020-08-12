@@ -26,7 +26,6 @@ export const section = (color) => {
     return {
         background: col,
         backgroundColor: color,
-        //marginBottom: '-1.409%' // remove white space between sections
     };
 }
 
@@ -37,5 +36,14 @@ export const sectionHeader = {
 
 export const list = {
     marginLeft: '12%',
+    marginRight: '12%',
     color: 'white'
+}
+
+export const picture = (margin) => {
+    return {
+        width: '3%',
+        height: '3%',
+        marginLeft: margin
+    }
 }

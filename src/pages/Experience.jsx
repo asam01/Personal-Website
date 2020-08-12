@@ -10,12 +10,15 @@ function Experience () {
                     <li><strong>Google, Inc. &emsp;</strong><i>May - August, 2020</i></li>
                         <p>Software Engineering (STEP) Intern</p>
                         <ul>
-                            <li>Developed <a href='https://github.com/asam01/step-2020'>personal portfolio web application
-                                </a> from scratch</li>
+                            <li>Developed <a href='https://github.com/asam01/step-2020'
+                                target='_blank' rel='noopener noreferrer'>
+                                personal portfolio web application</a> from scratch
+                            </li>
 
-                            <li>Designed and implemented <a href='https://github.com/googleinterns/step59-2020'>
-                                Stock Market Simulation Game web application</a> from scratch</li>
-                            
+                            <li>Designed and implemented <a href='https://github.com/googleinterns/step59-2020'
+                                target='_blank' rel='noopener noreferrer'>Stock Market Simulation
+                                Game web application</a> from scratch
+                            </li>
                         </ul>
                     <br/><br/>
 
