@@ -1,10 +1,6 @@
 import React from 'react';
 import * as styles from '../css/HomeStyle';
 
-import github from '../images/github-logo.png';
-import linkedin from '../images/linkedin-logo.png';
-import mail from '../images/mail-logo.png';
-
 function About () {
     return (
         <div style={styles.section('hotpink')} id='about'>
@@ -44,23 +40,6 @@ function About () {
                     in Computing Award.
                 </li>
             </ul>
-
-            <div>
-                <a href='https://github.com/asam01' target='_blank'
-                    rel='noopener noreferrer'>
-                    <img src={github} alt='GitHub profile' style={styles.picture('42.5%')}/>  
-                </a>
-
-                <a href='https://linkedin.com/in/aneesha-sampath' target='_blank'
-                    rel='noopener noreferrer'>
-                    <img src={linkedin} alt='Linkedin profile' style={styles.picture('3%')}/>  
-                </a>
-
-                <a href='mailto:aneeshas@andrew.cmu.edu' target='_blank'
-                    rel='noopener noreferrer'>
-                    <img src={mail} alt='Email' style={styles.picture('3%')}/>  
-                </a>
-            </div>
             <br/>
         </div>
     );
