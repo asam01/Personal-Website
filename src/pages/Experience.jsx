@@ -3,7 +3,7 @@ import * as styles from '../css/HomeStyle';
 
 function Experience () {
     return (
-        <div style={styles.section('honeydew')} id='experience'>
+        <div style={styles.section('blue')} id='experience'>
             <br/>
             <h2 style={styles.sectionHeader}>Experience</h2>
                 <ul style={styles.list}>
@@ -24,6 +24,7 @@ function Experience () {
                         <ul>
                             <li>Wrote Python scripts to animate evolution and plot aspects of Earth's magnetic field</li>
                             <li>Rendered 3D models and 3D animations of magnetic field</li>
+                            <li>Visualizations used in Institution's public lecture series</li>
                         </ul>
                 </ul>
                 <br/>
