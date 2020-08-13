@@ -27,27 +27,27 @@ function Bar (props) {
         <ElevationScroll {...props}>
             <AppBar position="static" style={styles.navbar}>
                 <Toolbar>
-                    <Link to='/#top' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/#top' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Home</Button>
                     </Link>
 
-                    <Link to='/#about' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/#about' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>About</Button>
                     </Link>
 
-                    <Link to='/#education' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/#education' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Education</Button>
                     </Link>
 
-                    <Link to='/#experience' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/#experience' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Experience</Button>
                     </Link>
 
-                    <Link to='/#skills' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/#skills' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Skills</Button>
                     </Link>
 
-                    <Link to='/contact' style={{textDecoration: 'none'}}>
+                    <Link to='/personal-website/contact' style={{textDecoration: 'none'}}>
                         <Button style={styles.buttonStyle}>Contact</Button>
                     </Link>
 

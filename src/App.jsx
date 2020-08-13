@@ -6,8 +6,8 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
-      <Route exact path='/' render = {() => <Home/>} />
-      <Route exact path='/contact' render = {() => <Contact/>} />
+      <Route exact path='/personal-website' render = {() => <Home/>} />
+      <Route exact path='/personal-website/contact' render = {() => <Contact/>} />
     </Router>
   );
 }
