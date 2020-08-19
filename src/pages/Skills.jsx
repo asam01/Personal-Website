@@ -3,9 +3,11 @@ import * as styles from '../css/HomeStyle';
 
 function Skills () {
     return (
-        <div style={styles.section('darkviolet')} id='skills'>
-            <br/>
-            <h2 style={styles.sectionHeader}>Technical Skills</h2>
+        <div>
+            <div style={styles.section('darkviolet')} id='skills'>
+                <h2 style={styles.sectionHeader}>Technical Skills</h2>
+            </div>
+            
             <ul style={styles.list}>
                 <li>Proficient:</li>
                 <ul>
@@ -25,7 +27,6 @@ function Skills () {
                 </ul>
 
             </ul>
-            <br/>
         </div>
     );
 }

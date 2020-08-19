@@ -3,9 +3,11 @@ import * as styles from '../css/HomeStyle';
 
 function About () {
     return (
-        <div style={styles.section('hotpink')} id='about'>
-            <br/>
-            <h2 style={styles.sectionHeader}>About Me</h2>
+        <div>
+            <div style={styles.section('lightpink')} id='about'>
+                <h2 style={styles.sectionHeader}>About Me</h2>
+            </div>
+            
             <ul style={styles.list}>
                 <li>
                     I am a rising sophomore at Carnegie Mellon University. I am an
@@ -40,7 +42,6 @@ function About () {
                     in Computing Award.
                 </li>
             </ul>
-            <br/>
         </div>
     );
 }

@@ -25,9 +25,9 @@ function Home () {
                 </div>
                 <br/>
 
-                <About/>
-                <Education/>
-                <Experience/>
+                <About/><br/>
+                <Education/><br/>
+                <Experience/><br/>
                 <Skills/>
                 
             </div>

@@ -26,16 +26,18 @@ export const section = (color) => {
     return {
         background: col,
         backgroundColor: color,
+        padding: '15px'
     };
 }
 
 export const sectionHeader = {
-    textIndent: '10%',
+    textIndent: '3%',
     color: 'white'
 }
 
 export const list = {
-    marginLeft: '12%',
-    marginRight: '12%',
-    color: 'white'
+    marginLeft: '5%',
+    marginRight: '5%',
+    color: 'black',
+    padding: '15px'
 }

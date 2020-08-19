@@ -3,9 +3,11 @@ import * as styles from '../css/HomeStyle';
 
 function Education () {
     return (
-        <div style={styles.section('red')} id='education'>
-            <br/>
-            <h2 style={styles.sectionHeader}>Education</h2>
+        <div>
+            <div style={styles.section('crimson')} id='education'>
+                <h2 style={styles.sectionHeader}>Education</h2>
+            </div>
+
             <ul style={styles.list}>
                 <li><strong>Carnegie Mellon University</strong>, 2023</li>
                 <br/>
@@ -25,7 +27,6 @@ function Education () {
                     <li>Principles of Imperative Computation</li>
                 </ul>
             </ul>
-            <br/>
         </div>
     );
 }
